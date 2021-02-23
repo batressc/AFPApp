@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFPApp.Entities", "AFPApp.Entities\AFPApp.Entities.csproj", "{45B7623F-C2E4-4F3B-8334-59F6C49F79CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFPApp.BusinessLogic", "AFPApp.BusinessLogic\AFPApp.BusinessLogic.csproj", "{0A65BAF2-3E40-49BC-BD33-92792F93AC3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFPApp.DataAccess", "AFPApp.DataAccess\AFPApp.DataAccess.csproj", "{7A40F5ED-FFB4-47BF-824B-74FE625C6C1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFPApp.WebAPI", "AFPApp.WebAPI\AFPApp.WebAPI.csproj", "{90D6EEA1-C40A-4873-8C4F-6C1C0EB7C1C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{229B94A2-678E-4ECD-8653-D9EF435A4684}"
+	ProjectSection(SolutionItems) = preProject
+		AFPApp.DataBase\ScriptDataBase.sql = AFPApp.DataBase\ScriptDataBase.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45B7623F-C2E4-4F3B-8334-59F6C49F79CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B7623F-C2E4-4F3B-8334-59F6C49F79CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B7623F-C2E4-4F3B-8334-59F6C49F79CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B7623F-C2E4-4F3B-8334-59F6C49F79CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A65BAF2-3E40-49BC-BD33-92792F93AC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A65BAF2-3E40-49BC-BD33-92792F93AC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A65BAF2-3E40-49BC-BD33-92792F93AC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A65BAF2-3E40-49BC-BD33-92792F93AC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A40F5ED-FFB4-47BF-824B-74FE625C6C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A40F5ED-FFB4-47BF-824B-74FE625C6C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A40F5ED-FFB4-47BF-824B-74FE625C6C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A40F5ED-FFB4-47BF-824B-74FE625C6C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D6EEA1-C40A-4873-8C4F-6C1C0EB7C1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D6EEA1-C40A-4873-8C4F-6C1C0EB7C1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D6EEA1-C40A-4873-8C4F-6C1C0EB7C1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D6EEA1-C40A-4873-8C4F-6C1C0EB7C1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3AB17AF-8211-4126-B001-E5878BEA4E0E}
+	EndGlobalSection
+EndGlobal
